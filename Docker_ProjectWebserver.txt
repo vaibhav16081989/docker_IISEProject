@@ -1,0 +1,16 @@
+Step by Step :-
+
+1. I installed oracle virtual box and create ubuntu parent VM
+2. I have pulled docker centos 7 Image .
+3. After that install httpd packages and services on container.
+5.Attache volume 
+4. docker commit   ebc4ace6dfe1 vaibhav_centos:v1
+5.
+run container command:-
+
+docker container run -it -p 1234:80 --name web --network bridge vaibhav_centos:v1
+
+I have attached screen shot of Browser image as well.
+
+
+6. Launch MS Sql DB
